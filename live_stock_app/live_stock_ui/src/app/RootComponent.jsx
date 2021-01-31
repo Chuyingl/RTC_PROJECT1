@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Stocks from "./components/stocks/container/Stocks"
 
 export default class RootComponent extends Component {
     constructor(props) {
@@ -7,7 +8,8 @@ export default class RootComponent extends Component {
 
     render() {
         return (
-            <h1>Welcome To React Application Boiler Template!</h1>
+            <Stocks/>
+            
         );
     }
 }
